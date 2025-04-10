@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/blackberry/DRG
+DEVICE_PATH := device/blackberry/luna
 
 # Inherit from nokia sdm660-common
 -include device/blackberry/sdm660-common/BoardConfigCommon.mk
@@ -46,4 +46,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 SELINUX_IGNORE_NEVERALLOWS := true
 
 # Inherit from the proprietary version
-include vendor/blackberry/DRG/BoardConfigVendor.mk
+include vendor/blackberry/luna/BoardConfigVendor.mk
