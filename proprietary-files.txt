@@ -20,7 +20,6 @@ vendor/etc/camera/ov5675_luna_chromatix.xml
 vendor/etc/camera/s5k3l8_luna_chromatix.xml
 vendor/etc/camera/s5k4h7_luna_chromatix.xml
 vendor/lib/libactuator_bu64297gwz_luna.so
-vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libchromatix_ov5675_luna_common.so
 vendor/lib/libchromatix_ov5675_luna_hfr_60.so
 vendor/lib/libchromatix_ov5675_luna_hfr_90.so
