@@ -16,7 +16,7 @@
 
 DEVICE_PATH := device/blackberry/luna
 
-# Inherit from nokia sdm660-common
+# Inherit from BlackBerry sdm660-common
 -include device/blackberry/sdm660-common/BoardConfigCommon.mk
 
 # Architecture
@@ -35,8 +35,10 @@ TARGET_SCREEN_DENSITY := 434
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
+BOARD_CACHEIMAGE_PARTITION_SIZE := 1073741824
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
 BOARD_VENDORIMAGE_PARTITION_SIZE := 536870912
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 67108864
 BOARD_FLASH_BLOCK_SIZE := 262144
 
 # Properties
